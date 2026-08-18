@@ -5,6 +5,6 @@ chars = string.ascii_letters + string.digits
 password = ""
 
 for i in range(16):
-    password +- random.choice(chars)
+    password += random.choice(chars)
 
 print(password)
